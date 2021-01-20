@@ -1,0 +1,35 @@
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__container {
+  padding: 20px 0;
+  padding: 20px 0;
+  flex: 0 1 80%;
+}
+
+.footer__container p {
+  color: white;
+  line-height: 19px;
+  margin: 10px 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.footer__container a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.footer__container a:hover {
+  color: var(--red-color);
+}
+
+.tmdbLogo {
+  width: 30px;
+  object-fit: contain;
+}
